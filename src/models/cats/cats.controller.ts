@@ -5,6 +5,7 @@ import { CatsService } from './cats.service';
 export class CatsController {
   constructor(private readonly catsService: CatsService) {}
 
+  // example commnet
   @Get()
   getAll(): string {
     return this.catsService.getAll();
